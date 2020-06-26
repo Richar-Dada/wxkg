@@ -1,0 +1,11 @@
+<cu-custom bgColor="bg-blue">
+  <view slot="content">预约列表</view>
+</cu-custom>
+<scroll-view scroll-y class="scrollPage">
+  <view class="margin radius padding bg-grey light">
+    
+    111sfsdfsdfsdfsdf
+    
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>

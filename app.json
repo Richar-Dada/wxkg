@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/booking/booking"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ColorUI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#f9f9f9",
+    "selectedColor": "#0081ff",
+    "color": "#666666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar/home.png",
+        "selectedIconPath": "images/tabbar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/booking/booking",
+        "iconPath": "/images/tabbar/booking.png",
+        "selectedIconPath": "images/tabbar/booking_active.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/images/tabbar/my.png",
+        "selectedIconPath": "images/tabbar/my_active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

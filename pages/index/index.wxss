@@ -1,0 +1,14 @@
+.box {
+    position: relative;
+    height: 180rpx;
+}
+
+.box-text {
+    padding-top: 100rpx;
+}
+
+.box-image {
+    position: absolute;
+    bottom: 10rpx;
+    right: 20rpx;
+}

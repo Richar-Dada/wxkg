@@ -1,0 +1,26 @@
+<cu-custom bgColor="bg-blue">
+  <view slot="content">空港服务站</view>
+</cu-custom>
+<swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key>
+    <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+    <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+  </swiper-item>
+</swiper>
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-blue"></text> 热门服务
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="flex">
+    <view class="flex-sub bg-blue padding-sm padding-top-xl margin-xs radius box">
+      <text class="text-xxl box-text">市内过户</text> 
+      <image class="box-image" style="width: 60px; height: 28px;" src="/images/bmw.png"></image>
+    </view>
+    <view class="flex-sub bg-blue padding-sm padding-top-xl margin-xs radius box">
+      <text class="text-xxl box-text">迁出提档</text> 
+      <image class="box-image" style="width: 60px; height: 28px;" src="/images/audi.png"></image>
+    </view>
+  </view>
+</view>
