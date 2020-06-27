@@ -2,10 +2,24 @@
   <view slot="content">预约列表</view>
 </cu-custom>
 <scroll-view scroll-y class="scrollPage">
-  <view class="margin radius padding bg-grey light">
-    
-    111sfsdfsdfsdfsdf
-    
+  <view class="margin radius bg-white light">
+    <view class="flex solid-bottom justify-between top">
+      <view class="padding-sm radius">
+        <text class="cuIcon-time lg text-gray padding-right-sm"></text>
+        <text>2020-06-27</text>
+      </view>
+      <view class="text-orange padding-sm radius">确认完成</view>
+    </view>
+    <view class="flex solid-bottom align-start padding-sm">
+      <view class="cu-avatar xl round margin-left bg-blue padding">
+        <text class="text-lg" style="white-space:pre-wrap">市内过户</text>
+      </view>
+      <view class="padding-sm margin-xs radius">粤A34342</view>
+    </view>
+    <view class="flex solid-top padding-sm justify-end">
+     <button class="cu-btn round line-black margin-right-sm sm">发票</button>
+      <button class="cu-btn round line-black sm">删除</button>
+    </view>
   </view>
   <view class="cu-tabbar-height"></view>
 </scroll-view>

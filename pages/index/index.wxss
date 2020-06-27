@@ -12,3 +12,7 @@
     bottom: 10rpx;
     right: 20rpx;
 }
+
+Page {
+    background: white;
+}
